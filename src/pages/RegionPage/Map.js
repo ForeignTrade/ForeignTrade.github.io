@@ -8,12 +8,12 @@ import markerIcon from '../../pic/marker.png'
 const center = [51.505, -0.09]
 
 const countries = [
-  { name: '中国', position: [35.86166, 104.195397] },
+  { name: '东盟国家', position: [3.2028, 113.9145] }, // 东盟国家的大致中心位置
   { name: '美国', position: [37.09024, -95.712891] },
   { name: '日本', position: [36.204824, 138.252924] },
-  { name: '德国', position: [51.165691, 10.451526] },
-  { name: '法国', position: [46.227638, 2.213749] },
+  { name: '英国', position: [55.378051, -3.435973] },
 ]
+
 
 const customIcon = L.icon({
   iconUrl: markerIcon,
