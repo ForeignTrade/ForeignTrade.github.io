@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.323d7611.css",
-    "main.js": "/static/js/main.d66a85b6.js",
+    "main.js": "/static/js/main.b1e270dd.js",
     "static/js/787.38f16daf.chunk.js": "/static/js/787.38f16daf.chunk.js",
     "static/media/专家专访：谈英国市场概况-4.jpg": "/static/media/专家专访：谈英国市场概况-4.b0bff81516cb7fa2fac7.jpg",
     "static/media/map.png": "/static/media/map.7daefc7c86a3f2869b57.png",
@@ -13,19 +13,23 @@
     "static/media/外贸入门：了解英国政治体系-2.jpg": "/static/media/外贸入门：了解英国政治体系-2.23eaa0c56e33277d4df4.jpg",
     "static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-3.jpg": "/static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-3.92bab28606b8bb26ff60.jpg",
     "static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-1.jpg": "/static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-1.0bfbdf8f6cb26e974b1d.jpg",
+    "static/media/今日聚焦：解读美国市场概况-1.png": "/static/media/今日聚焦：解读美国市场概况-1.860ee4387356c04ca3c1.png",
     "static/media/外贸入门：了解英国政治体系-1.jpg": "/static/media/外贸入门：了解英国政治体系-1.5518f2656ae11ee3e199.jpg",
     "static/media/专家专访：谈英国市场概况-3.jpg": "/static/media/专家专访：谈英国市场概况-3.7178958978db640411a3.jpg",
     "static/media/专家专访：谈英国市场概况-1.jpg": "/static/media/专家专访：谈英国市场概况-1.4a22234c2cef935f70de.jpg",
     "static/media/专家专访：谈英国市场概况-2.jpg": "/static/media/专家专访：谈英国市场概况-2.faed1314e4c145e6fad2.jpg",
     "static/media/今日分享：英国最新几年贸易数据-1.jpg": "/static/media/今日分享：英国最新几年贸易数据-1.489ea8082c6ea1be44b4.jpg",
     "static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-2.jpg": "/static/media/今日聚焦：英国最新财经资讯，预测未来经济走势-2.20d74b0fc2965fd1eaae.jpg",
+    "static/media/今日聚焦：解读美国市场概况-2.png": "/static/media/今日聚焦：解读美国市场概况-2.5b19d83ab55f714bbeb7.png",
+    "static/media/今日聚焦：解读美国市场概况-4.png": "/static/media/今日聚焦：解读美国市场概况-4.9de38d2c9217b2fa87ac.png",
+    "static/media/今日聚焦：解读美国市场概况-3.png": "/static/media/今日聚焦：解读美国市场概况-3.134876205f7c0b40172e.png",
     "index.html": "/index.html",
     "main.323d7611.css.map": "/static/css/main.323d7611.css.map",
-    "main.d66a85b6.js.map": "/static/js/main.d66a85b6.js.map",
+    "main.b1e270dd.js.map": "/static/js/main.b1e270dd.js.map",
     "787.38f16daf.chunk.js.map": "/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.323d7611.css",
-    "static/js/main.d66a85b6.js"
+    "static/js/main.b1e270dd.js"
   ]
 }
