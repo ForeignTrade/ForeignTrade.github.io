@@ -9,9 +9,11 @@ function NewsSection ({ title, articles }) {
     <Card sx={{ marginBottom: '20px', borderRadius: '10px', boxShadow: 3 }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'primary.main', color: 'white', padding: '10px 16px', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
         <Typography variant="h6">{title}</Typography>
-        <Button onClick={() => setExpanded(!expanded)} sx={{ color: 'white' }}>
-          {expanded ? '收起' : '展开'}
-        </Button>
+        {articles.length > 3 && (
+          <Button onClick={() => setExpanded(!expanded)} sx={{ color: 'white' }}>
+            {expanded ? '收起' : '展开'}
+          </Button>
+        )}
       </Box>
       <Box sx={{ maxHeight: expanded ? '1000px' : '168px', overflow: 'hidden', transition: 'max-height 1s ease-in-out' }}>
         <Box sx={{ padding: '10px 16px' }}>
@@ -22,7 +24,7 @@ function NewsSection ({ title, articles }) {
                   {article.title}
                 </Link>
               </Typography>
-              {index < (expanded ? articles.length - 1 : 2) && <Divider sx={{ marginTop: '10px', backgroundColor: 'grey.300' }} />}
+              {index < (expanded || articles.length <= 3 ? articles.length - 1 : 2) && <Divider sx={{ marginTop: '10px', backgroundColor: 'grey.300' }} />}
             </React.Fragment>
           ))}
         </Box>

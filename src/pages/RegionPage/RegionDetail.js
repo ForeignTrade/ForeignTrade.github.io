@@ -41,10 +41,49 @@ function RegionDetail () {
             { title: '专家视角：解读美国社会文化', url: '/region/usac3a4' },
           ],
         },
-        // 其他板块...
       ],
     },
-    // 其他国家的新闻数据...
+    {
+      country: '英国',
+      sections: [
+        {
+          title: '英国近期时事热点一览',
+          articles: [
+            { title: '外贸人要了解的英国近期时事热点', url: '/region/ukc1a1' },
+          ],
+        },
+        {
+          title: '英国文化集锦',
+          articles: [
+            { title: '外贸锦囊：论中英文化差异', url: '/region/ukc2a1' },
+            { title: '外贸精讲课：跨文化营销案例研究', url: '/region/ukc2a2' },
+            { title: '外贸精讲课：英国商业文化', url: '/region/ukc2a3' },
+            { title: '外贸视角分析英国消费习惯', url: '/region/ukc2a4' },
+            { title: '专家视角：解读英国社会文化', url: '/region/ukc2a5' },
+          ],
+        },
+        {
+          title: '英国政治说',
+          articles: [
+            { title: '今日聚焦：英国政策稳定性', url: '/region/ukc3a1' },
+            { title: '外贸人必须知道的那点事：英国法律框架', url: '/region/ukc3a2' },
+            { title: '外贸入门：了解英国政治体系', url: '/region/ukc3a3' },
+            { title: '专家视角：论英国国际关系', url: '/region/ukc3a4' },
+            { title: '专家探讨英国政策环境', url: '/region/ukc3a5' },
+          ],
+        },
+        {
+          title: '专家解读英国经济',
+          articles: [
+            { title: '今日分享：英国最新几年贸易数据', url: '/region/ukc4a1' },
+            { title: '今日聚焦：英国最新财经资讯，预测未来经济走势', url: '/region/ukc4a2' },
+            { title: '专家分析英国各大产业群，供应链及竞争情况', url: '/region/ukc4a3' },
+            { title: '专家视角：英国投资环境政策及风险评估', url: '/region/ukc4a4' },
+            { title: '专家专访：谈英国市场概况', url: '/region/ukc4a5' },
+          ],
+        },
+      ],
+    }
   ]
 
   const filteredNewsData = newsData.find(section => section.country === country)
