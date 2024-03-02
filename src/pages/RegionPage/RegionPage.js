@@ -31,6 +31,40 @@ import UKC4A2 from './Articles/UK/Column4/Article2'
 import UKC4A3 from './Articles/UK/Column4/Article3'
 import UKC4A4 from './Articles/UK/Column4/Article4'
 import UKC4A5 from './Articles/UK/Column4/Article5'
+import JAPANC1A1 from './Articles/Japan/Column1/Article1'
+import JAPANC1A2 from './Articles/Japan/Column1/Article2'
+import JAPANC1A3 from './Articles/Japan/Column1/Article3'
+import JAPANC1A4 from './Articles/Japan/Column1/Article4'
+import JAPANC1A5 from './Articles/Japan/Column1/Article5'
+import JAPANC2A1 from './Articles/Japan/Column2/Article1'
+import JAPANC2A2 from './Articles/Japan/Column2/Article2'
+import JAPANC2A3 from './Articles/Japan/Column2/Article3'
+import JAPANC2A4 from './Articles/Japan/Column2/Article4'
+import JAPANC3A1 from './Articles/Japan/Column3/Article1'
+import JAPANC3A2 from './Articles/Japan/Column3/Article2'
+import JAPANC3A3 from './Articles/Japan/Column3/Article3'
+import JAPANC3A4 from './Articles/Japan/Column3/Article4'
+import JAPANC4A1 from './Articles/Japan/Column4/Article1'
+import ASEANC1A1 from './Articles/ASEAN/Column1/Article1'
+import ASEANC1A2 from './Articles/ASEAN/Column1/Article2'
+import ASEANC1A3 from './Articles/ASEAN/Column1/Article3'
+import ASEANC1A4 from './Articles/ASEAN/Column1/Article4'
+import ASEANC2A1 from './Articles/ASEAN/Column2/Article1'
+import ASEANC2A2 from './Articles/ASEAN/Column2/Article2'
+import ASEANC2A3 from './Articles/ASEAN/Column2/Article3'
+import ASEANC2A4 from './Articles/ASEAN/Column2/Article4'
+import ASEANC2A5 from './Articles/ASEAN/Column2/Article5'
+import ASEANC3A1 from './Articles/ASEAN/Column3/Article1'
+import ASEANC3A2 from './Articles/ASEAN/Column3/Article2'
+import ASEANC3A3 from './Articles/ASEAN/Column3/Article3'
+import ASEANC3A4 from './Articles/ASEAN/Column3/Article4'
+import ASEANC3A5 from './Articles/ASEAN/Column3/Article5'
+import ASEANC4A1 from './Articles/ASEAN/Column4/Article1'
+import ASEANC4A2 from './Articles/ASEAN/Column4/Article2'
+import ASEANC4A3 from './Articles/ASEAN/Column4/Article3'
+import ASEANC4A4 from './Articles/ASEAN/Column4/Article4'
+
+
 
 function RegionPage () {
   return (
@@ -66,6 +100,38 @@ function RegionPage () {
       <Route path="/ukc4a3" element={<UKC4A3 />} />
       <Route path="/ukc4a4" element={<UKC4A4 />} />
       <Route path="/ukc4a5" element={<UKC4A5 />} />
+      <Route path="/japanc1a1" element={<JAPANC1A1 />} />
+      <Route path="/japanc1a2" element={<JAPANC1A2 />} />
+      <Route path="/japanc1a3" element={<JAPANC1A3 />} />
+      <Route path="/japanc1a4" element={<JAPANC1A4 />} />
+      <Route path="/japanc1a5" element={<JAPANC1A5 />} />
+      <Route path="/japanc2a1" element={<JAPANC2A1 />} />
+      <Route path="/japanc2a2" element={<JAPANC2A2 />} />
+      <Route path="/japanc2a3" element={<JAPANC2A3 />} />
+      <Route path="/japanc2a4" element={<JAPANC2A4 />} />
+      <Route path="/japanc3a1" element={<JAPANC3A1 />} />
+      <Route path="/japanc3a2" element={<JAPANC3A2 />} />
+      <Route path="/japanc3a3" element={<JAPANC3A3 />} />
+      <Route path="/japanc3a4" element={<JAPANC3A4 />} />
+      <Route path="/japanc4a1" element={<JAPANC4A1 />} />
+      <Route path="/aseanc1a1" element={<ASEANC1A1 />} />
+      <Route path="/aseanc1a2" element={<ASEANC1A2 />} />
+      <Route path="/aseanc1a3" element={<ASEANC1A3 />} />
+      <Route path="/aseanc1a4" element={<ASEANC1A4 />} />
+      <Route path="/aseanc2a1" element={<ASEANC2A1 />} />
+      <Route path="/aseanc2a2" element={<ASEANC2A2 />} />
+      <Route path="/aseanc2a3" element={<ASEANC2A3 />} />
+      <Route path="/aseanc2a4" element={<ASEANC2A4 />} />
+      <Route path="/aseanc2a5" element={<ASEANC2A5 />} />
+      <Route path="/aseanc3a1" element={<ASEANC3A1 />} />
+      <Route path="/aseanc3a2" element={<ASEANC3A2 />} />
+      <Route path="/aseanc3a3" element={<ASEANC3A3 />} />
+      <Route path="/aseanc3a4" element={<ASEANC3A4 />} />
+      <Route path="/aseanc3a5" element={<ASEANC3A5 />} />
+      <Route path="/aseanc4a1" element={<ASEANC4A1 />} />
+      <Route path="/aseanc4a2" element={<ASEANC4A2 />} />
+      <Route path="/aseanc4a3" element={<ASEANC4A3 />} />
+      <Route path="/aseanc4a4" element={<ASEANC4A4 />} />
     </Routes>
   )
 }

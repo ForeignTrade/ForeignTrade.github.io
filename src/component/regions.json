@@ -1,0 +1,614 @@
+[
+  {
+    "name": "\u4e5f\u95e8",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u8d8a\u5357",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4e4c\u5179\u522b\u514b\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u963f\u8054\u914b",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u571f\u5e93\u66fc\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u571f\u8033\u5176",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4e1c\u5e1d\u6c76",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u6cf0\u56fd",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5854\u5409\u514b\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u53d9\u5229\u4e9a",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u65af\u91cc\u5170\u5361",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u97e9\u56fd",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u65b0\u52a0\u5761",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u6c99\u7279\u963f\u62c9\u4f2f",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5361\u5854\u5c14",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u83f2\u5f8b\u5bbe",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5df4\u57fa\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u963f\u66fc",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u671d\u9c9c",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5c3c\u6cca\u5c14",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u8499\u53e4",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u9a6c\u5c14\u4ee3\u592b",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u9a6c\u6765\u897f\u4e9a",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u9ece\u5df4\u5ae9",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u8001\u631d",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5409\u5c14\u5409\u65af\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u79d1\u5a01\u7279",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u54c8\u8428\u514b\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u7ea6\u65e6",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u65e5\u672c",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4ee5\u8272\u5217",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5df4\u52d2\u65af\u5766",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4f0a\u62c9\u514b",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4f0a\u6717",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5370\u5ea6",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u683c\u9c81\u5409\u4e9a",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u585e\u6d66\u8def\u65af",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4e2d\u56fd",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u67ec\u57d4\u5be8",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u7f05\u7538",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u6587\u83b1",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4e0d\u4e39",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5b5f\u52a0\u62c9\u56fd",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u5df4\u6797",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u963f\u585e\u62dc\u7586",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u4e9a\u7f8e\u5c3c\u4e9a",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u963f\u5bcc\u6c57",
+    "itemStyle": {
+      "areaColor": "#FFD700"
+    }
+  },
+  {
+    "name": "\u6d25\u5df4\u5e03\u97e6",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u8d5e\u6bd4\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u4e4c\u5e72\u8fbe",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u7a81\u5c3c\u65af",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u591a\u54e5",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5766\u6851\u5c3c\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u65af\u5a01\u58eb\u5170",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5357\u82cf\u4e39",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u82cf\u4e39",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5357\u975e",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u7d22\u9a6c\u91cc",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u585e\u62c9\u5229\u6602",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u585e\u820c\u5c14",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u585e\u5185\u52a0\u5c14",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5723\u591a\u7f8e\u548c\u666e\u6797\u897f\u6bd4",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5362\u65fa\u8fbe",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5c3c\u65e5\u5229\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5c3c\u65e5\u5c14",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u7eb3\u7c73\u6bd4\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u83ab\u6851\u6bd4\u514b",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u6469\u6d1b\u54e5",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u6bdb\u91cc\u6c42\u65af",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u6bdb\u91cc\u5854\u5c3c\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u9a6c\u91cc",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u9a6c\u62c9\u7ef4",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u9a6c\u8fbe\u52a0\u65af\u52a0",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5229\u6bd4\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5229\u6bd4\u91cc\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u83b1\u7d22\u6258",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u80af\u5c3c\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u51e0\u5185\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u52a0\u7eb3",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5188\u6bd4\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u52a0\u84ec",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u57c3\u585e\u4fc4\u6bd4\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5384\u7acb\u7279\u91cc\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u8d64\u9053\u51e0\u5185\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u57c3\u53ca",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5409\u5e03\u63d0",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u79d1\u7279\u8fea\u74e6",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u521a\u679c\uff08\u91d1\uff09",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u521a\u679c\uff08\u5e03\uff09",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u79d1\u6469\u7f57",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u4e4d\u5f97",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u4e2d\u975e",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u4f5b\u5f97\u89d2",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5580\u9ea6\u9686",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5e03\u9686\u8fea",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5e03\u57fa\u7eb3\u6cd5\u7d22",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u535a\u8328\u74e6\u7eb3",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u8d1d\u5b81",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u5b89\u54e5\u62c9",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  },
+  {
+    "name": "\u963f\u5c14\u53ca\u5229\u4e9a",
+    "itemStyle": {
+      "areaColor": "#8A2BE2"
+    }
+  }
+]

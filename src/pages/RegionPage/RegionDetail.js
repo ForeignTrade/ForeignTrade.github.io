@@ -83,7 +83,89 @@ function RegionDetail () {
           ],
         },
       ],
-    }
+    },
+    {
+      country: '日本',
+      sections: [
+        {
+          title: '分析日本政治',
+          articles: [
+            { title: '外贸解说：解读日本国际关系', url: '/region/japanc1a1' },
+            { title: '外贸视角：分析日本贸易方面法律框架', url: '/region/japanc1a2' },
+            { title: '专家解析：概括日本政治体系', url: '/region/japanc1a3' },
+            { title: '专家评估：日本对外贸易政策环境', url: '/region/japanc1a4' },
+            { title: '专家评估：日本政治风险分析', url: '/region/japanc1a5' },
+          ],
+        },
+        {
+          title: '分享日本文化',
+          articles: [
+            { title: '外贸锦囊：分享日本市场的消费习惯', url: '/region/japanc2a1' },
+            { title: '专家探讨：分析文化差异', url: '/region/japanc2a2' },
+            { title: '专家讨论：解构日本的社会文化', url: '/region/japanc2a3' },
+            { title: '最新资料：带你了解日本商业文化', url: '/region/japanc2a4' },
+          ],
+        },
+        {
+          title: '解解读日本经济',
+          articles: [
+            { title: '今日分享：分享日本最新贸易数据', url: '/region/japanc3a1' },
+            { title: '今日聚焦：谈日本市场概况', url: '/region/japanc3a2' },
+            { title: '外贸视角：分析当今日本投资环境', url: '/region/japanc3a3' },
+            { title: '专家探讨：分析日本各大产业现状', url: '/region/japanc3a4' },
+          ],
+        },
+        {
+          title: '聚焦时事热点',
+          articles: [
+            { title: '今日聚焦：日本时事热点', url: '/region/japanc4a1' },
+          ],
+        },
+      ],
+    },
+    {
+      country: '东盟国家',
+      sections: [
+        {
+          title: '热点聚焦：东盟国家近期大事记',
+          articles: [
+            { title: '今日聚焦：2024中国东盟人文交流年', url: '/region/aseanc1a1' },
+            { title: '今日聚焦：中国东盟自贸区3.0建设', url: '/region/aseanc1a2' },
+            { title: '专家视角：2023.12东盟各国热点解读', url: '/region/aseanc1a3' },
+            { title: '专家视角：2024.1东盟各国热点解读', url: '/region/aseanc1a4' },
+          ],
+        },
+        {
+          title: '专家分析：东盟国家的经济探究',
+          articles: [
+            { title: '今日分享：东盟的贸易数据详情', url: '/region/aseanc2a1' },
+            { title: '外贸锦囊：东盟的财经资讯速览', url: '/region/aseanc2a2' },
+            { title: '外贸精讲：东盟的投资环境研讨', url: '/region/aseanc2a3' },
+            { title: '专家视角：东盟的市场概况解读', url: '/region/aseanc2a4' },
+            { title: '专家专访：东盟的产业分析深度分析', url: '/region/aseanc2a5' },
+          ],
+        },
+        {
+          title: '专家视角：东盟国家的政治研究',
+          articles: [
+            { title: '专家专访：解读东盟的国际关系', url: '/region/aseanc3a1' },
+            { title: '专家视角：解读东盟的政策环境', url: '/region/aseanc3a2' },
+            { title: '专家解读：东盟的法律框架研讨', url: '/region/aseanc3a3' },
+            { title: '研讨聚焦：解读东盟的政治稳定性', url: '/region/aseanc3a4' },
+            { title: '视野拓展：解读东盟的政治体系', url: '/region/aseanc3a5' },
+          ],
+        },
+        {
+          title: '专家研讨：东盟国家的文化分析',
+          articles: [
+            { title: '精选专栏：解读东盟的社会文化', url: '/region/aseanc4a1' },
+            { title: '热点聚焦：解读东盟的文化差异', url: '/region/aseanc4a2' },
+            { title: '专家解读：东盟的商业文化一览', url: '/region/aseanc4a3' },
+            { title: '专家视角：东盟的消费习惯分析', url: '/region/aseanc4a4' },
+          ],
+        },
+      ],
+    },
   ]
 
   const filteredNewsData = newsData.find(section => section.country === country)

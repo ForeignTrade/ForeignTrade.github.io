@@ -15,9 +15,9 @@ function Article () {
         textAlign: 'center', // 标题居中
         fontSize: '2rem', // 使用更大的字号
       }}>
-        今日聚焦：解读美国市场概况
+        外贸视角：分析日本贸易方面法律框架
       </Typography>
-
+      <Typography paragraph sx={{ textIndent: '2em' }}>文件损坏</Typography>
     </Box>
   )
 }
