@@ -1,614 +1,1148 @@
 [
   {
-    "name": "\u4e5f\u95e8",
+    "comment": "以下是亚洲的国家信息"
+  },
+  {
+    "name": "阿联酋",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "也门",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "越南",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "乌兹别克斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "土库曼斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "土耳其",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "东帝汶",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "泰国",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "塔吉克斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "叙利亚",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "斯里兰卡",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "韩国",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "新加坡",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "沙特阿拉伯",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "卡塔尔",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "菲律宾",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "巴基斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "阿曼",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "朝鲜",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "尼泊尔",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "蒙古",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "马尔代夫",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "马来西亚",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "黎巴嫩",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "老挝",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "吉尔吉斯斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "科威特",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "哈萨克斯坦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "约旦",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "日本",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "以色列",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "伊拉克",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "伊朗",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "印度尼西亚",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "印度",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "格鲁吉亚",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "中国",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "柬埔寨",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "缅甸",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "文莱",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "不丹",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "孟加拉国",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "巴林",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "阿塞拜疆",
+    "itemStyle": {
+      "areaColor": "#FFF68F"
+    }
+  },
+  {
+    "name": "亚美尼亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFF68F"
     }
   },
   {
-    "name": "\u8d8a\u5357",
+    "name": "阿富汗",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFF68F"
     }
   },
   {
-    "name": "\u4e4c\u5179\u522b\u514b\u65af\u5766",
+    "comment": "以下是欧洲的国家信息"
+  },
+  {
+    "name": "梵蒂冈",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "英国",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "乌克兰",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "瑞士",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "瑞典",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "西班牙",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "斯洛伐克",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "斯洛文尼亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "塞尔维亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "圣马力诺",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "俄罗斯",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "罗马尼亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "葡萄牙",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "波兰",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "挪威",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "荷兰",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "摩纳哥",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "马耳他",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "卢森堡",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "立陶宛",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "拉脱维亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "意大利",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "爱尔兰",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "冰岛",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "匈牙利",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "希腊",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "德国",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "法国",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "芬兰",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "爱沙尼亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "丹麦",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "塞浦路斯",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "克罗地亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "保加利亚",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "比利时",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "name": "奥地利",
+    "itemStyle": {
+      "areaColor": "#8EE5EE"
+    }
+  },
+  {
+    "comment": "以下是北美洲的国家信息"
+  },
+  {
+    "name": "格陵兰",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "多米尼加",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "波多黎各",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "美国",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "特立尼达和多巴哥",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "圣文森特和格林纳丁斯",
+    "itemStyle": {
+      "areaColor": "#9AFF9A"
+    }
+  },
+  {
+    "name": "圣卢西亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u963f\u8054\u914b",
+    "name": "圣基茨和尼维斯",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u571f\u5e93\u66fc\u65af\u5766",
+    "name": "巴拿马",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u571f\u8033\u5176",
+    "name": "尼加拉瓜",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u4e1c\u5e1d\u6c76",
+    "name": "墨西哥",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u6cf0\u56fd",
+    "name": "牙买加",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u5854\u5409\u514b\u65af\u5766",
+    "name": "洪都拉斯",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u53d9\u5229\u4e9a",
+    "name": "海地",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u65af\u91cc\u5170\u5361",
+    "name": "危地马拉",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u97e9\u56fd",
+    "name": "格林纳达",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u65b0\u52a0\u5761",
+    "name": "萨尔瓦多",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u6c99\u7279\u963f\u62c9\u4f2f",
+    "name": "多米尼克",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u5361\u5854\u5c14",
+    "name": "古巴",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u83f2\u5f8b\u5bbe",
+    "name": "哥斯达黎加",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u5df4\u57fa\u65af\u5766",
+    "name": "加拿大",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u963f\u66fc",
+    "name": "伯利兹",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u671d\u9c9c",
+    "name": "巴巴多斯",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u5c3c\u6cca\u5c14",
+    "name": "巴哈马",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u8499\u53e4",
+    "name": "安提瓜和巴布达",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#9AFF9A"
     }
   },
   {
-    "name": "\u9a6c\u5c14\u4ee3\u592b",
+    "comment": "以下是非洲的国家信息"
+  },
+  {
+    "name": "津巴布韦",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u9a6c\u6765\u897f\u4e9a",
+    "name": "赞比亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u9ece\u5df4\u5ae9",
+    "name": "乌干达",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u8001\u631d",
+    "name": "突尼斯",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5409\u5c14\u5409\u65af\u65af\u5766",
+    "name": "多哥",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u79d1\u5a01\u7279",
+    "name": "坦桑尼亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u54c8\u8428\u514b\u65af\u5766",
+    "name": "斯威士兰",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u7ea6\u65e6",
+    "name": "南苏丹",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u65e5\u672c",
+    "name": "苏丹",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4ee5\u8272\u5217",
+    "name": "南非",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5df4\u52d2\u65af\u5766",
+    "name": "索马里",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4f0a\u62c9\u514b",
+    "name": "塞拉利昂",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4f0a\u6717",
+    "name": "塞舌尔",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+    "name": "塞内加尔",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5370\u5ea6",
+    "name": "圣多美和普林西比",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u683c\u9c81\u5409\u4e9a",
+    "name": "卢旺达",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u585e\u6d66\u8def\u65af",
+    "name": "尼日利亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4e2d\u56fd",
+    "name": "尼日尔",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u67ec\u57d4\u5be8",
+    "name": "纳米比亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u7f05\u7538",
+    "name": "莫桑比克",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u6587\u83b1",
+    "name": "摩洛哥",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4e0d\u4e39",
+    "name": "毛里求斯",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5b5f\u52a0\u62c9\u56fd",
+    "name": "毛里塔尼亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5df4\u6797",
+    "name": "马里",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u963f\u585e\u62dc\u7586",
+    "name": "马拉维",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4e9a\u7f8e\u5c3c\u4e9a",
+    "name": "马达加斯加",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u963f\u5bcc\u6c57",
+    "name": "利比亚",
     "itemStyle": {
-      "areaColor": "#FFD700"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u6d25\u5df4\u5e03\u97e6",
+    "name": "利比里亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u8d5e\u6bd4\u4e9a",
+    "name": "莱索托",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u4e4c\u5e72\u8fbe",
+    "name": "肯尼亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u7a81\u5c3c\u65af",
+    "name": "几内亚比绍",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u591a\u54e5",
+    "name": "几内亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5766\u6851\u5c3c\u4e9a",
+    "name": "加纳",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u65af\u5a01\u58eb\u5170",
+    "name": "冈比亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5357\u82cf\u4e39",
+    "name": "加蓬",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u82cf\u4e39",
+    "name": "埃塞俄比亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5357\u975e",
+    "name": "厄立特里亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u7d22\u9a6c\u91cc",
+    "name": "赤道几内亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u585e\u62c9\u5229\u6602",
+    "name": "埃及",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u585e\u820c\u5c14",
+    "name": "吉布提",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u585e\u5185\u52a0\u5c14",
+    "name": "科特迪瓦",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5723\u591a\u7f8e\u548c\u666e\u6797\u897f\u6bd4",
+    "name": "刚果（金）",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5362\u65fa\u8fbe",
+    "name": "刚果（布）",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5c3c\u65e5\u5229\u4e9a",
+    "name": "科摩罗",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5c3c\u65e5\u5c14",
+    "name": "乍得",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u7eb3\u7c73\u6bd4\u4e9a",
+    "name": "佛得角",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u83ab\u6851\u6bd4\u514b",
+    "name": "喀麦隆",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u6469\u6d1b\u54e5",
+    "name": "布隆迪",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u6bdb\u91cc\u6c42\u65af",
+    "name": "布基纳法索",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u6bdb\u91cc\u5854\u5c3c\u4e9a",
+    "name": "博茨瓦纳",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u9a6c\u91cc",
+    "name": "贝宁",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u9a6c\u62c9\u7ef4",
+    "name": "安哥拉",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u9a6c\u8fbe\u52a0\u65af\u52a0",
+    "name": "阿尔及利亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5229\u6bd4\u4e9a",
+    "name": "索马里兰",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
   },
   {
-    "name": "\u5229\u6bd4\u91cc\u4e9a",
+    "name": "中非",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#FFC1C1"
     }
+  },
+  {
+    "comment": "以下是南美洲的国家信息"
   },
   {
-    "name": "\u83b1\u7d22\u6258",
+    "name": "委内瑞拉",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u80af\u5c3c\u4e9a",
+    "name": "乌拉圭",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",
+    "name": "苏里南",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u51e0\u5185\u4e9a",
+    "name": "秘鲁",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u52a0\u7eb3",
+    "name": "巴拉圭",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u5188\u6bd4\u4e9a",
+    "name": "圭亚那",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u52a0\u84ec",
+    "name": "厄瓜多尔",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u57c3\u585e\u4fc4\u6bd4\u4e9a",
+    "name": "哥伦比亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u5384\u7acb\u7279\u91cc\u4e9a",
+    "name": "智利",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u8d64\u9053\u51e0\u5185\u4e9a",
+    "name": "巴西",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u57c3\u53ca",
+    "name": "玻利维亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
   },
   {
-    "name": "\u5409\u5e03\u63d0",
+    "name": "阿根廷",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#F4A460"
     }
+  },
+  {
+    "comment": "以下是大洋洲的国家信息"
   },
   {
-    "name": "\u79d1\u7279\u8fea\u74e6",
+    "name": "瓦努阿图",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u521a\u679c\uff08\u91d1\uff09",
+    "name": "密克罗尼西亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u521a\u679c\uff08\u5e03\uff09",
+    "name": "马绍尔群岛",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u79d1\u6469\u7f57",
+    "name": "汤加",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u4e4d\u5f97",
+    "name": "所罗门群岛",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u4e2d\u975e",
+    "name": "萨摩亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u4f5b\u5f97\u89d2",
+    "name": "巴布亚新几内亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u5580\u9ea6\u9686",
+    "name": "帕劳",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u5e03\u9686\u8fea",
+    "name": "新西兰",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u5e03\u57fa\u7eb3\u6cd5\u7d22",
+    "name": "瑙鲁",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u535a\u8328\u74e6\u7eb3",
+    "name": "基里巴斯",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u8d1d\u5b81",
+    "name": "斐济",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u5b89\u54e5\u62c9",
+    "name": "澳大利亚",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   },
   {
-    "name": "\u963f\u5c14\u53ca\u5229\u4e9a",
+    "name": "图瓦卢",
     "itemStyle": {
-      "areaColor": "#8A2BE2"
+      "areaColor": "#EE82EE"
     }
   }
 ]

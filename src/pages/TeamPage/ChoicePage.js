@@ -29,17 +29,20 @@ function AIPage () {
   const navigate = useNavigate()
 
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <Grid container spacing={4} sx={{ maxWidth: 800 }}> {/* Increase the grid spacing and max width */}
+    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh' }}>
+      <Grid container spacing={6} sx={{ maxWidth: 1200 }}> {/* Increase the grid spacing and max width */}
         {tools.map((tool) => (
           <Grid item xs={6} key={tool.title}>
             <Card
               sx={{
-                minHeight: 200, // Increase the card height
+                minHeight: 250, // Increase the card height
                 display: 'flex',
                 flexDirection: 'column',
                 cursor: 'pointer',
-                p: 2, // Increase the padding
+                p: 3, // Increase the padding
+                border: '2px solid', // 设置边框粗细为2px
+                borderColor: 'primary.main', // 设置边框颜色，这里使用主题中的主色，也可以直接使用颜色代码，如'#333'
+                borderRadius: '16px' // 设置弧度
               }}
               onClick={() => navigate(tool.route)}
             >

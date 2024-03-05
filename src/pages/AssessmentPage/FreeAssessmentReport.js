@@ -4,7 +4,7 @@ import React from 'react'
 import { Box, Typography } from '@mui/material'
 import ReactECharts from 'echarts-for-react'
 import { useLocation } from 'react-router-dom'
-
+import '../../App.css'
 
 function FreeAssessmentReport () {
   const location = useLocation()
@@ -118,7 +118,7 @@ function FreeAssessmentReport () {
         const level = getLevelDescription(mockScores[index], dimension).split(':')[0]
         return {
           // 使用富文本标签应用样式
-          name: `{a|${dimension}} {b|${levelToGrade[level]}}`,
+          name: `{a|${dimension}\n} {c| } {b|${levelToGrade[level]}}`,
           max: 5
         }
       }).slice(0, -1),
@@ -128,13 +128,19 @@ function FreeAssessmentReport () {
         rich: {
           a: {
             color: '#000',
-            fontSize: 14,
-            fontWeight: 'normal'
+            fontSize: 25,
+            fontWeight: 'normal',
+            align: 'center',
           },
           b: {
             color: '#ff0000',
-            fontSize: 16,
-            fontWeight: 'bold'
+            fontSize: 35,
+            fontWeight: 'bold',
+            align: 'center'
+          },
+          c: {
+            // 通过增加c标签的高度来作为间隙
+            height: 50, // 这里的20是间隙的大小，可以根据需要进行调整
           }
         }
       }
@@ -156,11 +162,19 @@ function FreeAssessmentReport () {
 
   return (
     <Box sx={{ display: 'flex', height: '90vh', marginTop: '5vh' }}>
-      <Box sx={{ width: '50%', height: '90%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', paddingLeft: 4 }}>
+      <Box sx={{ width: '56%', height: '90%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
         <Typography variant="h4" align="left">您的测评结果是：</Typography>
         <Typography variant="h4" align="left">
           总评：
-          <Typography component="span" variant="h1" sx={{ fontWeight: 'bold', color: '#ff0000' }}>
+          <Typography
+            component="span"
+            variant="h1"
+            sx={{
+              fontWeight: 'bold',
+              color: '#ff0000',
+              fontFamily: '"Dancing Script", cursive', // 使用引入的字体
+            }}
+          >
             {levelToGrade[getLevelDescription(mockScores[mockScores.length - 1], '企业出口竞争力水平').split(':')[0]]}
           </Typography>
         </Typography>
@@ -168,8 +182,8 @@ function FreeAssessmentReport () {
       </Box>
 
 
-      <Box sx={{ width: '5%' }}></Box>
-      <Box sx={{ width: '45%', height: '90%', overflowY: 'auto' }}>
+      <Box sx={{ width: '4%' }}></Box>
+      <Box sx={{ width: '40%', height: '90%', overflowY: 'auto' }}>
         <Typography variant="h4" sx={{ marginBottom: 2 }}>
           评测结果
         </Typography>

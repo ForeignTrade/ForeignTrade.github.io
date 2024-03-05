@@ -126,9 +126,11 @@ const FlightMap = () => {
           coordinateSystem: 'geo',
           zlevel: 3,
           symbol: `image://${Boat}`,
-          symbolSize: [40, 40],
+          symbolSize: [64, 64],
           data: [
-            { value: [-30, 0] } // 大西洋上的坐标，根据实际情况调整
+            { value: [-40, 15] }, // 大西洋上的坐标，根据实际情况调整
+            { value: [-100, -30] },
+            { value: [150, -30] }
           ]
         },
         {
@@ -137,9 +139,10 @@ const FlightMap = () => {
           coordinateSystem: 'geo',
           zlevel: 3,
           symbol: `image://${Plane}`,
-          symbolSize: [40, 40],
+          symbolSize: [64, 64],
           data: [
-            { value: [80, -10] } // 印度洋上的坐标，根据实际情况调整
+            { value: [80, -10] }, // 印度洋上的坐标，根据实际情况调整
+            { value: [-30, 50] }
           ]
         },
 
@@ -197,10 +200,10 @@ const FlightMap = () => {
         sx={{
           position: 'absolute',
           left: '50%',
-          bottom: '20%',
+          bottom: '15%',
           transform: 'translateX(-50%)',
           fontSize: '2rem',
-          padding: '20px 40px',
+          padding: '10px 40px',
           zIndex: 10, // 确保按钮位于图表上方
         }}
       >

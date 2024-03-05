@@ -507,19 +507,19 @@ function FreeAssessment () {
     <Box sx={{ padding: 2 }}>
       {dimensions.map((dimension, dimensionIndex) => (
         <Box key={dimension.title} sx={{ marginBottom: 4 }}>
-          <Typography variant="h4" sx={{ textTransform: 'uppercase', marginBottom: 2 }}>
+          <Typography variant="h4" sx={{ display: 'inline-block', textTransform: 'uppercase', marginBottom: 2, border: 2, borderColor: 'primary.main', borderRadius: 2, padding: 1, backgroundColor: '#f0f0f0' }}>
             {dimension.title}
           </Typography>
           {dimension.questions.map((question, questionIndex) => (
             <FormControl key={question.text} component="fieldset" sx={{ width: '100%', padding: '10px' }}>
-              <Typography variant="h5">{question.text}</Typography>
+              <Typography variant="h6" sx={{ marginBottom: 2, fontSize: '1.5rem' }}>{question.text}</Typography>
               <RadioGroup
                 row
                 value={answers[dimensionIndex][questionIndex] || ''}
                 onChange={(event) => handleAnswerChange(dimensionIndex, questionIndex, parseInt(event.target.value, 10))}
               >
                 {question.options.map((option, optionIndex) => (
-                  <FormControlLabel key={option.label} value={option.score} control={<Radio />} label={option.label} />
+                  <FormControlLabel key={option.label} value={option.score} control={<Radio />} label={<Typography sx={{ fontSize: '1.2rem' }}>{option.label}</Typography>} />
                 ))}
               </RadioGroup>
             </FormControl>
@@ -530,13 +530,13 @@ function FreeAssessment () {
         variant="contained"
         onClick={handleSubmit}
         sx={{
-          padding: '10px 20px', // Increase padding
-          fontSize: '1.2rem', // Increase font size
+          mt: 2, // 增加与上方内容的间隔
+          padding: '15px 30px', // 增加按钮的padding，使其更长更大
+          fontSize: '1.2rem', // 增大按钮内字体大小
         }}
       >
         生成报告
       </Button>
-
     </Box>
   )
 }
