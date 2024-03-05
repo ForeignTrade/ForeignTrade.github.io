@@ -9,37 +9,91 @@ function PeerToPeer () {
       role: 'Software Engineer',
       intro: 'John is a skilled software engineer with over 10 years of experience.',
       image: Avatar,
-      price: '500rmb/小时'
+      price: '标价先不写'
     },
     {
       name: 'Jane Smith',
       role: 'Product Manager',
       intro: 'Jane is a talented product manager who specializes in user experience.',
       image: Avatar,
-      price: '600rmb/小时'
+      price: '标价先不写'
     },
     {
       name: 'Alice Johnson',
       role: 'Data Scientist',
       intro: 'Alice is a data scientist with expertise in machine learning and AI.',
       image: Avatar,
-      price: '700rmb/小时'
+      price: '标价先不写'
     },
     {
       name: 'Bob Williams',
       role: 'UX Designer',
       intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
       image: Avatar,
-      price: '550rmb/小时'
+      price: '标价先不写'
+    },
+    {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    },
+    {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    }, {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
     }
+    , {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    }, {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    }, {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    }, {
+      name: 'Bob Williams',
+      role: 'UX Designer',
+      intro: 'Bob is a creative UX designer who focuses on creating intuitive interfaces.',
+      image: Avatar,
+      price: '标价先不写'
+    }
+
   ]
 
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <Grid container spacing={4} sx={{ maxWidth: '900px' }}>
+    <Box sx={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      minHeight: '90vh', // 改为minHeight以避免内容超出
+      pt: 4 // 添加顶部padding以防止内容顶到网页上端
+    }}>
+      <Grid container spacing={2} sx={{ maxWidth: '1200px', width: '100%', margin: '0 auto' }}>
+        {/* spacing根据总宽度和card宽度自动调整，这里以2为示例 */}
         {teamMembers.map((member, index) => (
-          <Grid item xs={6} key={index}>
-            <Card sx={{ width: '400px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+          <Grid item xs={12} sm={4} key={index}>
+            {/* 每个Grid项占总宽度的1/3，适应3列布局 */}
+            <Card sx={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
               <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', padding: 2 }}>
                 <CardMedia
                   component="img"
