@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.323d7611.css",
-    "main.js": "/static/js/main.72c5cf37.js",
+    "main.css": "/static/css/main.b07be35e.css",
+    "main.js": "/static/js/main.e3c38495.js",
     "static/js/787.38f16daf.chunk.js": "/static/js/787.38f16daf.chunk.js",
     "static/media/今日分享：分享日本最新贸易数据主要贸易伙伴图片3.png": "/static/media/今日分享：分享日本最新贸易数据主要贸易伙伴图片3.9d54f87a56cf7552062e.png",
     "static/media/今日分享：东盟的贸易数据详情-1.png": "/static/media/今日分享：东盟的贸易数据详情-1.08e64b32988e9e56485f.png",
     "static/media/今日分享：分享日本最新贸易数据 主要贸易伙伴图片3.png": "/static/media/今日分享：分享日本最新贸易数据 主要贸易伙伴图片3.1679bddabaee6f543417.png",
     "static/media/最新资料：带你了解日本商业文化图片1.png": "/static/media/最新资料：带你了解日本商业文化图片1.6b150ded4f0b355b886f.png",
     "static/media/外贸锦囊：分享日本市场的消费习惯图片2.png": "/static/media/外贸锦囊：分享日本市场的消费习惯图片2.787ba2744219b4dfe3bf.png",
+    "static/media/tech.png": "/static/media/tech.081787fefc1e03ab75aa.png",
     "static/media/专家讨论：解构日本的社会文化图片1.png": "/static/media/专家讨论：解构日本的社会文化图片1.8c2100d8a02ac43ca25c.png",
+    "static/media/tec.png": "/static/media/tec.fc0d0ecd9e3ee4f5a793.png",
     "static/media/今日聚焦：2024中国东盟人文交流年-1.png": "/static/media/今日聚焦：2024中国东盟人文交流年-1.7b53412b5f2592c1d0c3.png",
     "static/media/专家专访：谈英国市场概况-4.jpg": "/static/media/专家专访：谈英国市场概况-4.b0bff81516cb7fa2fac7.jpg",
     "static/media/map.png": "/static/media/map.7daefc7c86a3f2869b57.png",
@@ -75,12 +77,12 @@
     "static/media/今日聚焦：解读美国市场概况-4.png": "/static/media/今日聚焦：解读美国市场概况-4.9de38d2c9217b2fa87ac.png",
     "static/media/今日聚焦：解读美国市场概况-3.png": "/static/media/今日聚焦：解读美国市场概况-3.134876205f7c0b40172e.png",
     "index.html": "/index.html",
-    "main.323d7611.css.map": "/static/css/main.323d7611.css.map",
-    "main.72c5cf37.js.map": "/static/js/main.72c5cf37.js.map",
+    "main.b07be35e.css.map": "/static/css/main.b07be35e.css.map",
+    "main.e3c38495.js.map": "/static/js/main.e3c38495.js.map",
     "787.38f16daf.chunk.js.map": "/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.323d7611.css",
-    "static/js/main.72c5cf37.js"
+    "static/css/main.b07be35e.css",
+    "static/js/main.e3c38495.js"
   ]
 }
