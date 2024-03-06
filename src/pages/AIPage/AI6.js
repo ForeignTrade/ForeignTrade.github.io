@@ -9,7 +9,7 @@ import CryptoJS from 'crypto-js'
 const secretKey = '112345' // 用于加密和解密的密钥
 const encryptedApiKey = 'U2FsdGVkX19nnQ7hcRt7UbOJXaMl5Jkjt6JK5Z1hjom1Jv8DBpTlsFesCL5WVvgUahbI/Iik+cLXA4EYhpqD7DobXi3nKJ0k4eUwi3oPJ0s=' // 你加密后的 API 密钥
 
-const ChartDrawing = () => {
+const PPTGeneration = () => {
   const [input, setInput] = useState('')
   const [messages, setMessages] = useState([])
 
@@ -62,7 +62,14 @@ const ChartDrawing = () => {
           <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
             <Avatar src={botAvatar} />
             <Typography sx={{ marginLeft: 1, marginRight: 1, padding: 1, backgroundColor: '#e0e0e0', borderRadius: 2 }}>
-              我是您的 AI 助手
+              欢迎使用供应链协调助手。为了帮助您优化供应链流程，确保原材料和产品的流动畅通，请提供以下信息：<br />
+              您所涉及的供应链环节和合作伙伴：<br />
+              您当前的供应链结构和流程：<br />
+              您面临的主要供应链协调挑战或问题：<br />
+              您希望助手关注的特定协调方面，如供应商管理、库存优化、运输规划等：<br />
+              其他任何您认为重要的信息，如季节性需求变化、产品生命周期等：<br />
+              这些信息将有助于我们为您提供个性化的供应链协调方案，以确保供应链的高效运作和产品的及时交付。
+
             </Typography>
           </Box>
           {messages.map((message, index) => (
@@ -108,4 +115,4 @@ const ChartDrawing = () => {
   )
 }
 
-export default ChartDrawing
+export default PPTGeneration

@@ -9,7 +9,7 @@ import CryptoJS from 'crypto-js'
 const secretKey = '112345' // 用于加密和解密的密钥
 const encryptedApiKey = 'U2FsdGVkX19nnQ7hcRt7UbOJXaMl5Jkjt6JK5Z1hjom1Jv8DBpTlsFesCL5WVvgUahbI/Iik+cLXA4EYhpqD7DobXi3nKJ0k4eUwi3oPJ0s=' // 你加密后的 API 密钥
 
-const BusinessTranslation = () => {
+const PPTGeneration = () => {
   const [input, setInput] = useState('')
   const [messages, setMessages] = useState([])
 
@@ -62,7 +62,15 @@ const BusinessTranslation = () => {
           <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
             <Avatar src={botAvatar} />
             <Typography sx={{ marginLeft: 1, marginRight: 1, padding: 1, backgroundColor: '#e0e0e0', borderRadius: 2 }}>
-              我是您的 AI 助手
+              欢迎使用供应链优化助手。为了帮助您优化供应链管理，提高运营效率和降低成本，请提供以下信息：<br />
+              您的公司或组织所处的行业和市场地位：<br />
+              您当前的供应链结构和流程：<br />
+              您希望优化的特定方面，如库存管理、需求预测、运输路线优化等：<br />
+              您目前面临的主要供应链挑战或瓶颈：<br />
+              其他任何您认为重要的信息，如您的业务目标、季节性需求变化等：<br />
+              这些细节将帮助我们为您提供个性化的供应链优化方案，以满足您的特定需求并实现您的业务目标。
+
+
             </Typography>
           </Box>
           {messages.map((message, index) => (
@@ -108,4 +116,4 @@ const BusinessTranslation = () => {
   )
 }
 
-export default BusinessTranslation
+export default PPTGeneration

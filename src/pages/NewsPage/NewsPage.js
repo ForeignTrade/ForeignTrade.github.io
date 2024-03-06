@@ -4,6 +4,7 @@ import NewsList from './NewsList'
 import VideoList from './VideoList'
 import { Box } from '@mui/material'
 
+
 function NewsPage () {
   return (
     <div>

@@ -9,15 +9,13 @@ import CryptoJS from 'crypto-js'
 const secretKey = '112345' // 用于加密和解密的密钥
 const encryptedApiKey = 'U2FsdGVkX19nnQ7hcRt7UbOJXaMl5Jkjt6JK5Z1hjom1Jv8DBpTlsFesCL5WVvgUahbI/Iik+cLXA4EYhpqD7DobXi3nKJ0k4eUwi3oPJ0s=' // 你加密后的 API 密钥
 
-const DocumentWriting = () => {
+const PPTGeneration = () => {
   const [input, setInput] = useState('')
   const [messages, setMessages] = useState([])
 
   const handleInputChange = (event) => {
     setInput(event.target.value)
   }
-
-
 
   // 加密函数
   // const encrypt = (text) => {
@@ -39,7 +37,6 @@ const DocumentWriting = () => {
     try {
       const decryptedApiKey = decrypt(encryptedApiKey) // 解密 API 密钥
 
-
       const response = await axios.post('https://api.openai.com/v1/chat/completions', {
         model: 'gpt-3.5-turbo',
         messages: newMessages,
@@ -58,8 +55,6 @@ const DocumentWriting = () => {
     setInput('')
   }
 
-
-
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '30px', alignItems: 'center', overflow: 'hidden' }}>
       <Box sx={{ width: '95%', height: '75vh', overflowY: 'auto', marginBottom: 2, borderRadius: '10px', border: '1px solid #ccc' }}>
@@ -67,7 +62,13 @@ const DocumentWriting = () => {
           <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
             <Avatar src={botAvatar} />
             <Typography sx={{ marginLeft: 1, marginRight: 1, padding: 1, backgroundColor: '#e0e0e0', borderRadius: 2 }}>
-              我是您的 AI 助手
+              欢迎使用风险管理助手。为了帮助您更好地识别、评估和管理风险，以确保您的业务运作顺利并达到预期目标，请告诉我以下相关信息：<br />
+              您所关注的主要风险类别（例如市场风险、信用风险、操作风险等）：<br />
+              您当前的风险管理策略或流程：<br />
+              您希望助手关注的特定风险领域或挑战：<br />
+              其他任何您认为重要的信息，如您的业务规模、行业特点等：<br />
+              这些细节将有助于我们为您提供定制的风险管理方案，以最大程度地降低您面临的风险并提升您的业务效率和可持续性。
+
             </Typography>
           </Box>
           {messages.map((message, index) => (
@@ -110,14 +111,7 @@ const DocumentWriting = () => {
         />
       </Box>
     </Box>
-
-
-
-
-
-
-
   )
 }
 
-export default DocumentWriting
+export default PPTGeneration

@@ -62,7 +62,14 @@ const PPTGeneration = () => {
           <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
             <Avatar src={botAvatar} />
             <Typography sx={{ marginLeft: 1, marginRight: 1, padding: 1, backgroundColor: '#e0e0e0', borderRadius: 2 }}>
-              我是您的 AI 助手
+              欢迎使用交付可靠性助手。为了帮助您确保产品按时可靠地交付给客户，请提供以下信息：<br />
+              您所关注的产品类型或服务：<br />
+              您当前的交付流程和策略：<br />
+              您面临的主要交付挑战或瓶颈：<br />
+              您希望助手关注的特定交付方面，如需求预测、库存管理、运输优化等：<br />
+              其他任何您认为重要的信息，如交付时间表、客户地理位置等：<br />
+              这些细节将有助于我们为您提供定制的交付可靠性方案，以确保您的产品能够准时、可靠地达到客户手中，满足客户的需求和期望。
+
             </Typography>
           </Box>
           {messages.map((message, index) => (

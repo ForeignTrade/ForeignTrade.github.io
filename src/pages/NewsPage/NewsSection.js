@@ -15,7 +15,7 @@ function NewsSection ({ title, articles }) {
           {(expanded ? articles : articles.slice(0, 3)).map((article, index) => (
             <React.Fragment key={index}>
               <Typography sx={{ marginTop: '10px', fontSize: '1.1rem' }}>
-                <a href={article.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
+                <a href={article.url} rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
                   {article.title}
                 </a>
               </Typography>

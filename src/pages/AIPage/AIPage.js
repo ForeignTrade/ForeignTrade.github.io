@@ -1,9 +1,12 @@
 import React from 'react'
-import ChartDrawing from './ChartDrawing'
-import BusinessTranslation from './BusinessTranslation'
-import DocumentWriting from './DocumentWriting'
-import PPTGeneration from './PPTGeneration'
 import ChoicePage from './ChoicePage'
+import AI1 from './AI1'
+import AI2 from './AI2'
+import AI3 from './AI3'
+import AI4 from './AI4'
+import AI5 from './AI5'
+import AI6 from './AI6'
+import AI7 from './AI7'
 import { Routes, Route } from 'react-router-dom'
 import { Box } from '@mui/material'
 
@@ -12,10 +15,13 @@ function AIPage () {
     <Box>
       <Routes>
         <Route index element={<ChoicePage />} />
-        <Route path="chart" element={<ChartDrawing />} />
-        <Route path="business" element={<BusinessTranslation />} />
-        <Route path="document" element={<DocumentWriting />} />
-        <Route path="ppt" element={<PPTGeneration />} />
+        <Route path="ai1" element={<AI1 />} />
+        <Route path="ai2" element={<AI2 />} />
+        <Route path="ai3" element={<AI3 />} />
+        <Route path="ai4" element={<AI4 />} />
+        <Route path="ai5" element={<AI5 />} />
+        <Route path="ai6" element={<AI6 />} />
+        <Route path="ai7" element={<AI7 />} />
       </Routes>
     </Box>
 

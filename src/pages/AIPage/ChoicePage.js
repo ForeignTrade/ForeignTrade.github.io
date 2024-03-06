@@ -4,29 +4,48 @@ import { useNavigate } from 'react-router-dom'
 
 const tools = [
   {
-    title: '文书写作',
-    description: '自动生成高质量的文书内容，提高工作效率。帮助您快速完成报告、论文、申请书等文档的撰写。',
-    imageUrl: require('../../pic/document.png'),
-    route: '/ai/document',
+    title: '邮件编写助手',
+    description: '这是邮件编写助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai1',
   },
   {
-    title: '商务翻译',
-    description: '准确、快速地翻译商务文件，跨越语言障碍。支持多种语言，保证翻译的专业性和准确性。',
-    imageUrl: require('../../pic/business.png'),
-    route: '/ai/business',
+    title: '市场分析预测助手',
+    description: '这是市场分析预测助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai2',
   },
   {
-    title: 'PPT快速生成',
-    description: '快速生成精美的PPT，提升演示效果。自动化设计，让您的演示更加吸引人。',
-    imageUrl: require('../../pic/ppt.png'),
-    route: '/ai/ppt',
+    title: '风险管理助手',
+    description: '这是风险管理助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai3',
   },
   {
-    title: '图表绘制',
-    description: '轻松绘制各种图表，直观展示数据。支持多种图表类型，满足不同的数据展示需求。',
-    imageUrl: require('../../pic/chart.png'),
-    route: '/ai/chart',
+    title: '供应链优化助手',
+    description: '这是供应链优化助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai4',
   },
+  {
+    title: '交付可靠性助手',
+    description: '这是交付可靠性助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai5',
+  },
+  {
+    title: '供应链协调助手',
+    description: '这是供应链协调助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai6',
+  },
+  {
+    title: '需求预测助手',
+    description: '这是需求预测助手',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai7',
+  },
+
 ]
 
 
@@ -34,7 +53,7 @@ function AIPage () {
   const navigate = useNavigate()
 
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh' }}>
+    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '10%' }}>
       <Grid container spacing={6} sx={{ maxWidth: 1200 }}> {/* Increase the grid spacing and max width */}
         {tools.map((tool) => (
           <Grid item xs={6} key={tool.title}>
