@@ -1,216 +1,95 @@
-import React, { useEffect, useRef } from 'react'
-import * as echarts from 'echarts'
-import worldJson from './world.json'
+import React from 'react'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
+import Background from '../pic/background.png' // 确保正确引入了背景图片
 import { useNavigate } from 'react-router-dom'
-import MapMarker from '../pic/mapmarker.png'
-import Boat from '../pic/boat.png'
-import Plane from '../pic/plane.png'
-import regionsData from './regions.json'
 
-
-
-const FlightMap = () => {
-  const chartRef = useRef(null)
+function App () {
   const navigate = useNavigate()
 
-  useEffect(() => {
-    echarts.registerMap('world', worldJson) // 注册地图数据
-    const myChart = echarts.init(chartRef.current)
-
-    const option = {
-      tooltip: {
-        trigger: 'item'
-      },
-      geo: {
-        map: 'world',
-        zoom: 1.2,
-        center: [0, 20],
-        roam: false, // 禁止地图缩放和平移
-        itemStyle: {
-          areaColor: '#f4f4f4',
-          borderColor: '#999'
-        },
-        emphasis: {
-          itemStyle: {
-            areaColor: '#e6e6e6'
-          }
-        },
-        regions: regionsData,
-      },
-      series: [
-        {
-          name: '航线',
-          type: 'lines',
-          coordinateSystem: 'geo',
-          zlevel: 2,
-          large: true,
-          effect: {
-            show: true,
-            constantSpeed: 100,
-            symbol: 'arrow',
-            symbolSize: 6,
-            trailLength: 0
-          },
-          lineStyle: {
-            width: 3,
-            opacity: 0.6,
-            curveness: 0.2
-          },
-          data: [
-            {
-              fromName: '中国',
-              toName: '美国',
-              coords: [[116.407526, 39.90403], [-95.712891, 37.09024]],
-              lineStyle: { color: '#87CEEB' }
-            },
-            {
-              fromName: '中国',
-              toName: '日本',
-              coords: [[116.407526, 39.90403], [138.252924, 36.204824]],
-              lineStyle: { color: '#FFD700' }
-            },
-            {
-              fromName: '中国',
-              toName: '英国',
-              coords: [[116.407526, 39.90403], [-3.435973, 55.378051]],
-              lineStyle: { color: '#32CD32' }
-            },
-            {
-              fromName: '中国',
-              toName: '法国',
-              coords: [[116.407526, 39.90403], [2.352222, 48.856614]],
-              lineStyle: { color: '#4169E1' }
-            },
-            {
-              fromName: '中国',
-              toName: '德国',
-              coords: [[116.407526, 39.90403], [10.451526, 51.165691]],
-              lineStyle: { color: '#6A5ACD' }
-            },
-            {
-              fromName: '中国',
-              toName: '加拿大',
-              coords: [[116.407526, 39.90403], [-106.346771, 56.130366]],
-              lineStyle: { color: '#FFA07A' }
-            },
-            {
-              fromName: '中国',
-              toName: '澳大利亚',
-              coords: [[116.407526, 39.90403], [133.775136, -25.274398]],
-              lineStyle: { color: '#20B2AA' }
-            },
-            {
-              fromName: '中国',
-              toName: '印度',
-              coords: [[116.407526, 39.90403], [78.96288, 20.593684]],
-              lineStyle: { color: '#BA55D3' }
-            },
-            {
-              fromName: '中国',
-              toName: '巴西',
-              coords: [[116.407526, 39.90403], [-51.92528, -14.235004]],
-              lineStyle: { color: '#00FA9A' }
-            },
-            {
-              fromName: '中国',
-              toName: '俄罗斯',
-              coords: [[116.407526, 39.90403], [105.318756, 61.52401]],
-              lineStyle: { color: '#48D1CC' }
-            }
-          ]
-        },
-        {
-          name: 'Boat',
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          zlevel: 3,
-          symbol: `image://${Boat}`,
-          symbolSize: [64, 64],
-          data: [
-            { value: [-40, 15] }, // 大西洋上的坐标，根据实际情况调整
-            { value: [-100, -30] },
-            { value: [150, 20] }
-          ]
-        },
-        {
-          name: 'Plane',
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          zlevel: 3,
-          symbol: `image://${Plane}`,
-          symbolSize: [64, 64],
-          data: [
-            { value: [80, -10] }, // 印度洋上的坐标，根据实际情况调整
-            { value: [-30, 50] }
-          ]
-        },
-
-        {
-          name: 'Markers',
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          zlevel: 3,
-          symbol: `image://${MapMarker}`, // 使用圆形标记
-          symbolSize: [40, 40], // 圆形大小
-          itemStyle: {
-            opacity: 1 // 设置标记不透明度
-          },
-          label: {
-            show: true,
-            position: 'right',
-            formatter: '{b}',
-            color: 'black', // 设置标签文字颜色为红色
-            fontSize: 16
-          },
-          data: [
-            { name: '中国', value: [116.407526, 39.90403] },
-            { name: '美国', value: [-95.712891, 37.09024] },
-            { name: '日本', value: [138.252924, 36.204824] },
-            { name: '英国', value: [-3.435973, 55.378051] },
-            { name: '法国', value: [2.352222, 48.856614] },
-            { name: '德国', value: [10.451526, 51.165691] },
-            { name: '加拿大', value: [-106.346771, 56.130366] },
-            { name: '澳大利亚', value: [133.775136, -25.274398] },
-            { name: '印度', value: [78.96288, 20.593684] },
-            { name: '巴西', value: [-51.92528, -14.235004] },
-            { name: '俄罗斯', value: [105.318756, 61.52401] }
-          ]
-        }
-      ]
-    }
-
-    myChart.setOption(option)
-
-    return () => {
-      myChart.dispose()
-    }
-  }, [])
-
-  const handleClick = () => {
+  const navigateToHomePage = () => {
     navigate('/news')
   }
 
+
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
-      <div ref={chartRef} style={{ width: '100%', height: '100%' }}></div>
-      <Button
-        variant="contained"
-        onClick={handleClick}
+    <Box
+      sx={{
+        position: 'relative', // 为背景和内容定位提供相对定位
+        height: '100vh', // 或根据需要调整
+      }}
+    >
+      {/* 独立的背景层 */}
+      <Box
         sx={{
-          position: 'absolute',
-          left: '50%',
-          bottom: '15%',
-          transform: 'translateX(-50%)',
-          fontSize: '2rem',
-          padding: '10px 40px',
-          zIndex: 10, // 确保按钮位于图表上方
+          position: 'absolute', // 绝对定位以填满父容器
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundImage: `url(${Background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.4, // 只对背景应用透明度
+          zIndex: -1, // 确保背景在内容之下
+        }}
+      />
+
+      {/* 标题 - 放在左上角 */}
+      <Typography
+        sx={{
+          position: 'absolute', // 绝对定位
+          top: 30, // 从顶部留出一些空间
+          left: 60, // 从左侧留出一些空间
+          color: 'black', // 文字颜色
+          fontWeight: 'bold', // 字体加粗
+          fontSize: '1.5rem', // 字号大小
         }}
       >
-        进入网站
-      </Button>
-    </div>
+        知洲外贸通
+      </Typography>
+
+      {/* 左侧居中的内容区域 */}
+      <Box
+        sx={{
+          position: 'absolute', // 绝对定位
+          top: '50%', // 垂直居中
+          left: 60, // 从左侧留出一些空间
+          transform: 'translateY(-50%)', // 精确垂直居中
+          width: '50%', // 根据内容自动调整宽度
+        }}
+      >
+        {/* 段落1 */}
+        <Typography
+          sx={{
+            color: 'black', // 文字颜色
+            fontSize: '5rem', // 字号大小
+            paddingBottom: '20px', // 段落之间的间距
+          }}
+        >
+          全球贸易，一触即达
+        </Typography>
+
+        {/* 段落2 */}
+        <Typography
+          sx={{
+            color: 'black', // 文字颜色
+            fontSize: '1.5rem', // 字号大小
+            paddingBottom: '50px', // 段落之间的间距
+          }}
+        >
+          知洲外贸通，连接全球贸易的智慧桥梁！一站式解决您的进出口需求，让世界触手可及。精准数据、专业服务，助力企业驰骋国际市场，引领贸易新时代。打造全球化商务平台，携手企业共绘全球贸易蓝图，畅通无阻，共赢未来!
+        </Typography>
+
+        {/* 按钮 - 透明背景黑色边框 */}
+        <Button variant="outlined" onClick={navigateToHomePage}
+          sx={{ borderColor: 'black', color: 'black', padding: '10px' }}>
+          Discover More
+        </Button>
+      </Box>
+    </Box>
   )
 }
 
-export default FlightMap
+export default App

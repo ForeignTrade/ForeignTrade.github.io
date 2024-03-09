@@ -13,7 +13,7 @@ function PaidAssessment () {
   const cardsInfo = [
     { title: '生成企业评估报告', navigatePath: '/report' },
     { title: '同行一对一', navigatePath: '/team' },
-    { title: '专家大师课', navigatePath: '/masterclass' },
+    { title: '专家大师课', navigatePath: '/team/master' },
   ]
 
   return (
