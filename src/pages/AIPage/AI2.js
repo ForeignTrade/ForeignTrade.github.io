@@ -7,7 +7,7 @@ import userAvatar from '../../pic/userAvatar.png'
 import CryptoJS from 'crypto-js'
 
 const secretKey = '112345' // 用于加密和解密的密钥
-const encryptedApiKey = 'U2FsdGVkX19nnQ7hcRt7UbOJXaMl5Jkjt6JK5Z1hjom1Jv8DBpTlsFesCL5WVvgUahbI/Iik+cLXA4EYhpqD7DobXi3nKJ0k4eUwi3oPJ0s=' // 你加密后的 API 密钥
+const encryptedApiKey = 'U2FsdGVkX18bkYS68ghSUXFf14EZZeQL+bS3XsRti3mSIAQfA5kebvtEsdZrC0USQjWm2UdYTqnYDSKmMXfRipLfbCksRd8XFRDrCvrMIMI' // 你加密后的 API 密钥
 
 const PPTGeneration = () => {
   const [input, setInput] = useState('')
