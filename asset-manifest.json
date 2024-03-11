@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7c10dc5b.css",
-    "main.js": "/static/js/main.bce71e52.js",
+    "main.js": "/static/js/main.48d7a88b.js",
     "static/js/787.38f16daf.chunk.js": "/static/js/787.38f16daf.chunk.js",
     "static/media/background.png": "/static/media/background.ed02f30446c34d1825cc.png",
     "static/media/今日分享：分享日本最新贸易数据主要贸易伙伴图片3.png": "/static/media/今日分享：分享日本最新贸易数据主要贸易伙伴图片3.9d54f87a56cf7552062e.png",
@@ -85,11 +85,11 @@
     "static/media/今日聚焦：解读美国市场概况-3.png": "/static/media/今日聚焦：解读美国市场概况-3.134876205f7c0b40172e.png",
     "index.html": "/index.html",
     "main.7c10dc5b.css.map": "/static/css/main.7c10dc5b.css.map",
-    "main.bce71e52.js.map": "/static/js/main.bce71e52.js.map",
+    "main.48d7a88b.js.map": "/static/js/main.48d7a88b.js.map",
     "787.38f16daf.chunk.js.map": "/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c10dc5b.css",
-    "static/js/main.bce71e52.js"
+    "static/js/main.48d7a88b.js"
   ]
 }
