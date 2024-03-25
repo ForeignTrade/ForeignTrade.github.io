@@ -17,7 +17,7 @@ function RegionDetail () {
           title: '洞察美国经济',
           articles: [
             { title: '今日分享：分析美国贸易数据', url: '/region/usac1a1' },
-            { title: '今日聚焦：解读美国市场概况', url: '/region/usac1a2' },
+            { title: '今日聚焦：美国人的消费习惯', url: '/region/usac1a2' },
             { title: '专家视角：美国产业群供应链分析', url: '/region/usac1a3' },
             { title: '专家视角：美国投资环境的判断及风险评估', url: '/region/usac1a4' },
           ],

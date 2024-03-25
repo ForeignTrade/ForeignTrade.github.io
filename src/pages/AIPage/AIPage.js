@@ -7,6 +7,7 @@ import AI4 from './AI4'
 import AI5 from './AI5'
 import AI6 from './AI6'
 import AI7 from './AI7'
+import AI8 from './AI8'
 import { Routes, Route } from 'react-router-dom'
 import { Box } from '@mui/material'
 
@@ -22,6 +23,7 @@ function AIPage () {
         <Route path="ai5" element={<AI5 />} />
         <Route path="ai6" element={<AI6 />} />
         <Route path="ai7" element={<AI7 />} />
+        <Route path="ai8" element={<AI8 />} />
       </Routes>
     </Box>
 

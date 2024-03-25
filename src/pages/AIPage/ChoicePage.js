@@ -17,35 +17,40 @@ const tools = [
   },
   {
     title: '风险管理助手',
-    description: '这是风险管理助手',
+    description: '为企业提供全面的风险识别、评估和应对策略，帮助企业有效管理和降低潜在风险，保障业务稳定发展。',
     imageUrl: require('../../pic/default.png'),
     route: '/ai/ai3',
   },
   {
     title: '供应链优化助手',
-    description: '这是供应链优化助手',
+    description: '通过深度分析和优化供应链流程，帮助企业提升运营效率，降低成本，增强市场竞争力。',
     imageUrl: require('../../pic/default.png'),
     route: '/ai/ai4',
   },
   {
     title: '交付可靠性助手',
-    description: '这是交付可靠性助手',
+    description: '保证企业产品或服务的准时交付，提高客户满意度，构建企业信誉，促进业务长期发展。',
     imageUrl: require('../../pic/default.png'),
     route: '/ai/ai5',
   },
   {
     title: '供应链协调助手',
-    description: '这是供应链协调助手',
+    description: '通过促进供应链内部各环节的高效协同，增强整体供应链的灵活性和响应速度，提升业务运营效能。',
     imageUrl: require('../../pic/default.png'),
     route: '/ai/ai6',
   },
   {
     title: '需求预测助手',
-    description: '这是需求预测助手',
+    description: '利用先进的数据分析技术，精准预测市场需求变化，支持企业优化生产计划和库存管理，提高市场响应速度。',
     imageUrl: require('../../pic/default.png'),
     route: '/ai/ai7',
   },
-
+  {
+    title: '直播话术生成助手',
+    description: '利用先进的数据分析技术，精准预测市场需求变化，支持企业优化生产计划和库存管理，提高市场响应速度。',
+    imageUrl: require('../../pic/default.png'),
+    route: '/ai/ai8',
+  },
 ]
 
 
@@ -73,7 +78,7 @@ function AIPage () {
               <Typography variant="h5" component="div" sx={{
                 fontWeight: 'bold',
                 textAlign: 'left',
-                fontSize: '1.5rem', // Increase the font size
+                fontSize: '2rem', // Increase the font size
                 mb: 1, // Add margin bottom
               }}>
                 {tool.title}
@@ -83,6 +88,7 @@ function AIPage () {
                   textAlign: 'left',
                   flex: 1,
                   pr: 2, // Increase the padding right
+                  fontSize: '1.5rem',
                 }}>
                   {tool.description}
                 </Typography>

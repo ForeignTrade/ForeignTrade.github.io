@@ -13,10 +13,10 @@ const MasonryItem = styled(Card)(({ theme }) => ({
 
 function VideoList () {
   const videos = [
-    { title: '厉老师谈外贸 | 世界前三大贸易协定你知道是哪三个吗？CPTPP、RCEP及美加墨自贸协定对比分析精讲', url: 'https://www.bilibili.com/video/BV1Eq4y1o7C1?vd_source=739b5e85a712ba7b03a88a7d54fdaeb4', imageUrl: require('../../pic/cover/1.png') },
+    { title: '直播购物方式风靡到美国', url: 'https://www.bilibili.com/video/BV1GY411H7gN/', imageUrl: require('../../pic/cover/1.jpg') },
     { title: '蔡崇信談貿易緊張、投資計劃（英）', url: 'https://www.bilibili.com/video/BV1jj411h7K7?vd_source=739b5e85a712ba7b03a88a7d54fdaeb4', imageUrl: require('../../pic/cover/2.png') },
-    { title: '冯科谈贸易', url: 'https://www.bilibili.com/video/BV1s44y1871a?vd_source=739b5e85a712ba7b03a88a7d54fdaeb4', imageUrl: require('../../pic/cover/3.png') },
-    { title: '【加拿大创业者】02年小伙在北美做国际贸易的一天 ｜00后边读大学边创业到底能做的如何？北美卖陶瓷锅销量好吗？', url: 'https://www.bilibili.com/video/BV1Gr4y1b7T6?vd_source=739b5e85a712ba7b03a88a7d54fdaeb4', imageUrl: require('../../pic/cover/5.png') },
+    { title: '2024企业出海跨境电商+产业带战略机遇', url: 'https://www.bilibili.com/video/BV1xv421r71K/', imageUrl: require('../../pic/cover/3.jpg') },
+    { title: '我把自己做成了数字人，以后视频不用实拍了？', url: 'https://www.bilibili.com/video/BV1vm4y1x7nm/', imageUrl: require('../../pic/cover/5.jpg') },
     // 其他视频数据...
     { title: '外贸出口各国的特点和商业谈判习惯（6）', url: 'https://www.bilibili.com/video/BV1FU4y1N7L8?vd_source=739b5e85a712ba7b03a88a7d54fdaeb4', imageUrl: require('../../pic/cover/4.png') },
   ]
